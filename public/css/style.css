@@ -1,0 +1,58 @@
+
+@font-face {
+    font-family: montserrat;
+    src: url('../font/Montserrat-Regular.ttf');
+}
+
+* {
+    font-family: montserrat;
+}
+
+* {
+    font-family: montserrat;
+}
+a:hover {
+    text-decoration: none;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+}
+.bg-white {
+    background-color: white;
+}
+.footer-home {
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+.icon-lg {
+    font-size: 4rem;
+}
+.card-icon {
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+}
+.card-icon::before {
+    content: '';
+    position: absolute;
+    width: 104%;
+    height: 108%;
+    border-radius: 4px;
+    left: -2%;
+    right: -2%;
+    top: -4%;
+    bottom: -4%;
+    opacity: .5;
+    background-color: white;
+}
+.login-btn {
+    right: 20px;
+    bottom: 20px;
+}
+.sticky {
+    position: sticky !important;
+    top: 0px;
+}

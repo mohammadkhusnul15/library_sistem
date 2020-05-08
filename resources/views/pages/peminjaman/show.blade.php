@@ -14,9 +14,6 @@
                     <form id="loan-form" enctype="multipart/form-data">
                         {{ csrf_field() }}
                         <div class="form-group">
-                            <input type="hidden" name="loanCode" id="loanCode" class="form-control" value="{{ $transaction->code_transaction }}" aria-describedby="helpId">
-                        </div>
-                        <div class="form-group">
                             <input type="hidden" name="bookId" id="bookId" class="form-control" value="{{ $book->id }}" aria-describedby="helpId">
                         </div>
                         <div class="form-group">
